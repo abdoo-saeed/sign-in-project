@@ -1,0 +1,37 @@
+/* login styles */
+main ,body{
+    background-color: #24353f;
+}
+section {
+    width:60%;
+    margin: auto;
+    box-shadow: 20px 20px 20px 20px   rgba(0,0,0,0.2);
+}
+nav{
+    box-shadow: 20px 20px 20px 20px   rgba(0,0,0,0.2);
+}
+section h1{
+    color: #17A2B8;
+}
+section input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    background-color:#24353f ;
+}
+section button{
+    width: 100%;
+    background-color:#24353f ;
+    color:#17A2B8 ;
+    border-color:#17A2B8;
+    padding: 10px;
+    transition: background-color .2s ease-in;
+}
+
+section button:hover{
+    background-color: #17A2B8;
+    color: white;
+}
